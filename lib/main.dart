@@ -1,7 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'day_container.dart'; // Đổi import cho đúng
-
+import 'day_container.dart'; 
 void main() {
   runApp(const MainApp());
 }
@@ -14,7 +13,7 @@ class MainApp extends StatefulWidget {
 }
 
 class _MainAppState extends State<MainApp> {
-  int ran = 0; // Mặc định lấy phần tử đầu tiên
+  int ran = 0; 
 
   final List<Map<String, dynamic>> events = [
     {"time": "07:00", "session": "AM", "title": "CTDL & GT", "description": "Nguyễn Duy Phương"},
